@@ -31,13 +31,6 @@ Goals are:
  
 # Step 1: Think the API
 
-To build the hub, we use one API first, the Metropolitan museum of Art. Remeber that this API has several endpoints we can use to create a search engine. At least two steps are mandatory:
-
-- make a GET operation on "search" to get a list of objects ID (https://metmuseum.github.io/#search)
-- make several GET operation on "objects/[objectID]" with each ID in search result (https://metmuseum.github.io/#object)
-
-## Your Goal
-
 Make a proposal for a new API which is able to make call across museums. Enpoints are:
 
 - /search: look for object in museums with criteria and filters
