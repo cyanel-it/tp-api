@@ -6,6 +6,8 @@ Goal is to create a Hub API to access to objects across several museums API. It'
 
 A request from a client application should be:
 
+![High level architecture](docs/api-hub.drawio.png)
+
 > Client application > YOUR NEW API > existing Metropolitan of Art Museum API
 
 
