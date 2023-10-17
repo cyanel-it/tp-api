@@ -1,6 +1,6 @@
 # tp-api
 
-# Goal overview
+# Architecture overview
 
 Goal is to create a Hub API to access to objects across several museums API. It's a backend application that expose an API and make the usage of other API easier. First musuem is the Metropolitan of Art Museum API.
 
@@ -10,15 +10,18 @@ The global architecture is:
 
 A request from a client application should be:
 
-> Client application > YOUR NEW API > existing Metropolitan of Art Museum API
+> Client application -- HTTP REQUESTS --> YOUR NEW API --- HTTP REQUESTS ---> One of the targeted museum
 
+# Goal overview
 
-You would have to:
+Goals are:
 
-* Design "YOUR NEW API" to make new enpoints available. Those new endpoints aim to simplify the call of API museum
-* Generates code in order to create a server (Python)
-* Integrate the generated API in a Python flask template
+* Design "YOUR NEW API" available at http://museumhub.com/api/v1/. This API has endpoints to search in different museums 
+* Generates code of the API (for Python flask)
+* Create a python application and integrate the generated API in a Python application
 * Make your application up and running locally
+* Add Mocks (samples) to test only the API
+* Modify the application to call museum API instead of mocks
 
 # Materials
 
