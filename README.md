@@ -31,18 +31,19 @@ Goals are:
  
 # Step 1: Think the API
 
-Existing API of New York Museum has several endpoints we can use to create a search engine. At least two steps are mandatory:
+To build the hub, we use one API first, the Metropolitan museum of Art. This API has several endpoints we can use to create a search engine. At least two steps are mandatory:
 
 - make a GET operation on "search" to get a list of objects ID (https://metmuseum.github.io/#search)
 - make several GET operation on "objects/[objectID]" with each ID in search result (https://metmuseum.github.io/#object)
 
 ## Your Goal
 
-Make a proposal for a new API which is able to make a search in one request. You have to get some considerations into account:
+Make a proposal for a new API which is able to make a search with only one request. Some considerations:
 
-- the request must have parameters to limit the number of result and browse into result (offest and limit)
-- plan a standard response format
-- plan also an error response format if parameters are wrong
+- request must have a parameter to identify the museum (a code or unique id)
+- request must have parameters to limit the number of result and browse into result pages (offest and limit)
+- response should be the same, whatever your API result is
+- response should contains error if something goes wrong
 
 # Step 2: Design the API with Swagger
 
