@@ -37,11 +37,18 @@ Goals are:
  
 # Step 1: Think the API
 
-Make a proposal for a new API which is able to make call across museums. Enpoints are:
+Create a Google Sheet or Excel to define what your API is able to do (how are requests and response).
 
-- /search: look for object in museums with criteria and filters
-- /museums: get info on museum, list existing museum
-- /config: get server config like "number of items in pagination", the list of parameters
+You must provide a proposal for the API which is able to make call across museums. 
+
+Enpoints are:
+
+| Endpoints | Description | Possible operations |
+|-----------|-------------|-----------|
+| /search | look for object in museums with criteria and filters | Search (Read) |
+| /museums | get info on museum, list existing museum | List (Read), Get one (Read) |
+| /config | get server config parameters. A parameter is a key with a value (key=value) (e.g default_page=3) | List all (Read), Get one (Read), Update one (Update)  |
+
 
 ## Tips
 
