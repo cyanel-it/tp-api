@@ -1,5 +1,11 @@
 # tp-api
 
+# Resources
+
+- Best practices:	https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design
+- Samples:	https://restfulapi.net/http-methods/
+- HTTP	Codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
 # Architecture overview
 
 Goal is to create a Hub API to access to objects across several museums API. It's a backend application that expose an API and make the usage of other API easier. First musuem is the Metropolitan of Art Museum API.
