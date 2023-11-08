@@ -63,6 +63,7 @@ Enpoints to define are:
 - Click on "Edit" menu and "Clear"
 - Open another tab with the editor to have a sample code
 
+Export YAML in a file, name this file with [your login].yaml and put your YAML Result in https://drive.google.com/drive/folders/1UlY8qus8aM0_-FJgHw4IzQPt4bdRzcC9?usp=sharing
 ## Tips
 
 - You will define an "openapi" API
