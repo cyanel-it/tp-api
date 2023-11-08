@@ -1,4 +1,4 @@
-# tp-api
+ # tp-api
 
 # Resources
 
@@ -8,9 +8,9 @@
 
 # Architecture overview
 
-Goal is to create a Hub API to access to objects across several museums API. It's a backend application that expose an API and make the usage of other API easier. First musuem is the Metropolitan of Art Museum API.
+Goal is to create a Hub API to access to others museums API. This hub will be a backend application that expose an API and make the usage of other API easier. First musuem is the Metropolitan of Art Museum API.
 
-The global architecture is:
+The global architecture of the application is:
 
 ![High level architecture](docs/api-hub.drawio.png)
 
@@ -20,28 +20,27 @@ A request from a client application should be:
 
 # Goal overview
 
-Goals are:
+Across this tuturial, goals are:
 
-* Design "YOUR NEW API" available at http://museumhub.com/api/v1/. This API has endpoints to search in different museums 
-* Generates code of the API (for Python flask)
-* Create a python application and integrate the generated API in a Python application
-* Make your application up and running locally
-* Add Mocks (samples) to test only the API
-* Modify the application to call museum API instead of mocks
+* Think your API (TP 1 with excel or google sheet)
+* Design "YOUR NEW API" (TP 2 with Swagger Editor)
+* Create a Python or PHP application and code the API you have just defined
+* Add to your application requests to call the museum API
 
 # Materials
 
+- Google sheet
 - The Swagger editor at https://editor.swagger.io
 - The metropolitan of Art Museum API documentation:  https://metmuseum.github.io
-- Python on your computer
+- Python or PHP on your computer
  
-# Step 1: Think the API
+# TP 1: Think the API
 
 Create a Google Sheet or Excel to define what your API is able to do (how are requests and response).
 
 You must provide a proposal for the API which is able to make call across museums. 
 
-Enpoints are:
+Enpoints to define are:
 
 | Endpoints | Description | Possible operations |
 |-----------|-------------|-----------|
