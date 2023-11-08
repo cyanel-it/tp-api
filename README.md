@@ -57,7 +57,7 @@ Enpoints to define are:
 - response should contains error if something goes wrong
 - When you define an API, You have to create objects to contains request and/or response data
 
-# Step 2: Design the API with Swagger
+# TP 2: Design the API with Swagger
 
 - Go on https://editor-next.swagger.io
 - Click on "Edit" menu and "Clear"
@@ -72,16 +72,19 @@ Enpoints to define are:
 
 If you are really spunky, you can use directly the specifications at: https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md
 
-# Step 3: Generate the code and analyse it
+# TP 3: Create an application
 
-# Step 4: Create a Python application
+## Design your application
 
-# Step 5: Integrate the generated API
+UML : https://online.visual-paradigm.com
 
-# Step 6: Run the application
+## Create an backbone
 
-# Step 7: Create mocks to simulate the Museum API
+- Hello world!
+- Use provided mock
 
-# Step 8: Test your application with POSTMAN
+## Create endpoints in the application
 
-# Step 9: Change mock to call the museum
+## Test your application with POSTMAN
+
+## Add requests to the museum
