@@ -75,17 +75,44 @@ If you are really spunky, you can use directly the specifications at: https://gi
 
 # TP 3: Create an application
 
+## Install Python Flask
 Goal is to create a Python Flask application.
 
-1. You may need to use .env file, it's a way to infject environment variable in your program. Follow this: https://github.com/theskumar/python-dotenv#readme
-2. 
+### Dotenv dependency
 
-## Create an backbone
+You may need to use .env file, it's a way to infject environment variable in your program. Follow this: https://github.com/theskumar/python-dotenv#readme
 
-- Hello world!
-- Use provided mock
+## Install Flask
 
-## Create endpoints in the application
+Follow instructions : https://flask.palletsprojects.com/en/3.0.x/installation/
+
+We suggest to use dotenv (.env) to avoid to break you Python version but it's not mandatory
+
+Quick install for venv is:
+
+```Shell
+mkdir myproject
+cd myproject
+python3 -m venv .venv
+. .venv/bin/activate
+```
+
+You can install directly Flask:
+
+```Shell
+pip3 install flask
+```
+
+## Make your first API application with flask
+
+Follow the quick start to discover flask. You don't need to do all sample. When you understand, keep this page as a documentation for help and go to create your API
+
+https://flask.palletsprojects.com/en/3.0.x/quickstart/
+
+
+## Generate the code with Swagger
+
+
 
 ## Test your application with POSTMAN
 
