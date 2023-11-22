@@ -75,9 +75,10 @@ If you are really spunky, you can use directly the specifications at: https://gi
 
 # TP 3: Create an application
 
-## Design your application
+Goal is to create a Python Flask application.
 
-UML : https://online.visual-paradigm.com
+1. You may need to use .env file, it's a way to infject environment variable in your program. Follow this: https://github.com/theskumar/python-dotenv#readme
+2. 
 
 ## Create an backbone
 
