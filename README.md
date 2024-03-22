@@ -96,7 +96,7 @@ You can install directly Flask:
 pip3 install flask
 ```
 
-When python venv and flask are installed, you can you dotenv ( .env file), it's a way to infject environment variable in your program. Follow this: https://github.com/theskumar/python-dotenv#readme
+When python venv and flask are installed, you can use dotenv ( .env file), it's a way to inject environment variable in your program. Follow this: https://github.com/theskumar/python-dotenv#readme
 
 ```Shell
 pip3 install dotenv
@@ -110,13 +110,6 @@ See the link for usage
 Follow the quick start to discover flask. You don't need to do all sample. When you understand, keep this page as a documentation for help and go to create your API
 
 https://flask.palletsprojects.com/en/3.0.x/quickstart/
-
-
-## Generate the code with Swagger
-
-Click on "Generate Server" and choose "Python-flask"
-
-![Swagger Generate code](docs/swagger-export.png)
 
 ## Test your application with POSTMAN
 
